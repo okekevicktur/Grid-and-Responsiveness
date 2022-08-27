@@ -14,21 +14,14 @@ body{
 }
 .container-grid{
     width: 85%;
-    padding: 4rem;
+    padding: 2rem;
     margin:  0 auto;
     display: grid;
     grid-template-columns: 3.3fr 1fr ;
     grid-gap:1.5rem; 
     grid-auto-columns: 1fr;
 }
-.main-grid{
-    /* display: grid; */
-    /* grid-template-columns: 2fr 1fr ; */
-    /* grid-template-rows: 1fr 1fr; */
-    /* set height of grid */
-    /* grid-auto-rows: minmax(300px,auto); */
-    /* grid-gap: 10px; */
-}
+
 .grid-row1{
     
     display: grid; 
@@ -148,7 +141,7 @@ body{
 
  } */
 /* Mobile-View */
-@media  screen and  (max-width:900px)
+@media  screen and  (max-width:850px)
 {
     .container{
       min-width: 265px;
